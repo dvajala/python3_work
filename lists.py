@@ -1,8 +1,13 @@
-bicycles = ['trek','bsa','streetcat','bmx']
+motorcycles = []
 
-print(bicycles[0])
-print(bicycles[-1].title())
+motorcycles.append('honda')
+motorcycles.append('enfield')
+motorcycles.append('yamaha')
+motorcycles.append('ducati')
 
-message = f"My favorite bike is {bicycles[-2]}"
+print(motorcycles)
 
-print(message)
+popped_motorcyle = motorcycles.pop(0)
+
+print(motorcycles)
+print(popped_motorcyle)
