@@ -1,7 +1,9 @@
-magicians = ['alice','mandrake','merlin']
+foods=['apples','cakes','beer','chips']
 
-for magician in magicians:
-	print(f"That was a great trick {magician.title()}")
-	print(f"Lets see another one {magician.title()}\n")
+new_foods = foods[:]
 
-print("Thanks!!")
+foods.append('eggs')
+new_foods.append('cheese')
+print("The first 3 foods are")
+for food in new_foods[-3:]:
+	print(food)
