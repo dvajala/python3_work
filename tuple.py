@@ -1,10 +1,6 @@
-dimension = (200,50)
+foods = ('oats','cake','beer','jam')
+foods = ('oats','cake','beef','pork')
 
-for num in dimension:
-	print(num)
+for food in foods:
+	print(food)
 
-dimension = (300,60)
-
-print("\nnew dimension")
-for num in dimension:
-	print(num)
