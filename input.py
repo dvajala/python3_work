@@ -1,6 +1,6 @@
 age = input("What is your age?: ")
 
-if int(age) >= 18:
-    print(" You are old enough")
+if int(age) % 2 == 0:
+    print("You are even years old")
 else:
-    print("No dice")
+    print("You are odd years old")
