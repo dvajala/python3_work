@@ -1,10 +1,12 @@
 def city_country(city,country):
+    """take in city and country and outputs formatted city, country"""
     city_country_formatted = f"{city.title()}, {country.title()}"
     return city_country_formatted
 
 
 
 def make_album(artist,album,songs=None):
+    """takes in artist and album and outs a dictionary with the information"""
     album_dict = {'artist':artist,'album':album}
     if songs:
         album_dict['songs'] = songs
